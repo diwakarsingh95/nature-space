@@ -1,0 +1,34 @@
+.mainTop {
+  display: flex;
+  flex-direction: row;
+  background: url('../../assets/images/Top.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  align-items: center;
+}
+
+.topText {
+  color: #c1b08d;
+  padding: 0 3em;
+}
+
+.topText h1 {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.topText small {
+  display: block;
+  color: #dcd5c6;
+  font-size: 1.5em;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 670px) {
+  .topText {
+    text-align: center;
+    padding: 1em;
+  }
+}
