@@ -1,0 +1,28 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 230px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.social {
+  color: silver;
+  padding: 2em;
+}
+
+.address {
+  padding: 2em;
+  color: white;
+}
+.address h2 {
+  margin: 0;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
