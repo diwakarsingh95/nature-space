@@ -4,18 +4,20 @@
   background: url('../../assets/images/Top.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 450px;
   align-items: center;
+  box-shadow: 0px 1px 2px 1px #777;
 }
 
 .topText {
-  color: #c1b08d;
-  padding: 0 3em;
+  padding-left: 4em;
 }
 
 .topText h1 {
+  color: #f3e8dbad;
   font-size: 3.5em;
   margin: 0;
+  text-shadow: 1px 1px black;
 }
 
 .topText small {
@@ -29,6 +31,5 @@
 @media only screen and (max-width: 670px) {
   .topText {
     text-align: center;
-    padding: 1em;
   }
 }
