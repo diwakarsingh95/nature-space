@@ -22,13 +22,13 @@ const Copyright = () => {
 const SocialMedia = () => {
   return (
     <>
-     <Link href='http://www.instagram.com'><InstagramIcon style={{ color: 'silver'}} fontSize='large' /></Link>
+     <Link href='http://www.instagram.com'><InstagramIcon style={{ color: 'white'}} fontSize='large' /></Link>
      {' '}
-     <Link href='http://www.facebook.com'><FacebookIcon style={{ color: 'silver'}} fontSize='large' /></Link>
+     <Link href='http://www.facebook.com'><FacebookIcon style={{ color: 'white'}} fontSize='large' /></Link>
      {' '}
-     <Link href='mailTo:someone@example.com'><MailOutlineIcon style={{ color: 'silver'}} fontSize='large' /></Link>
+     <Link href='mailTo:someone@example.com'><MailOutlineIcon style={{ color: 'white'}} fontSize='large' /></Link>
      {' '}
-     <Link href='tel:+918318516987'><CallIcon style={{ color: 'silver'}} fontSize='large' /></Link>
+     <Link href='tel:+918318516987'><CallIcon style={{ color: 'white'}} fontSize='large' /></Link>
     </>
   )
 }
