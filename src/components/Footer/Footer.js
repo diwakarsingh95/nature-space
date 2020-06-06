@@ -22,7 +22,7 @@ const Copyright = () => {
 const SocialMedia = () => {
   return (
     <>
-     <Link href='http://www.instagram.com' target='_blank'>
+     <Link href='https://www.instagram.com/nature_space_yoga_studio/' target='_blank'>
        <InstagramIcon style={{ color: 'white'}} fontSize='large' />
       </Link>
      {' '}
