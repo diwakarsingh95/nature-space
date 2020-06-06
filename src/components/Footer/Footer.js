@@ -8,14 +8,14 @@ import styles from './Footer.module.css'
 
 const Copyright = () => {
   return (
-    <Typography variant="body2">
+    <>
       {'Copyright © '}
       <Link color='inherit' href="/">
         Nature Space Yoga Studio  
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
-    </Typography>
+    </>
   );
 }
 
@@ -40,10 +40,10 @@ const SocialMedia = () => {
 const Address = () => {
   return (
     <>
-      <h2>Contact Us:</h2>
+      <h2>Contact Us</h2>
       <address>
         <p>
-          Nature Space Yoga Studio,
+          Nature Space Yoga Studio
           <br />
           Somewhere on earth
           <br />
@@ -60,14 +60,13 @@ export default function Footer() {
       <div className={styles.container}>
         <Grid container>
           <Grid item xs={12} sm={6}>
-            <div className={styles.social}>
-              <SocialMedia />
+            <div className={styles.address}>
+              <Address />
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <div className={styles.address}>
-              <Address />
-              <hr />
+            <div className={styles.social}>
+              <SocialMedia />
             </div>
           </Grid>
           <Grid item xs={12}>
