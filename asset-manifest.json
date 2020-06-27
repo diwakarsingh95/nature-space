@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/nature-space/static/css/main.fccaa63c.chunk.css",
-    "main.js": "/nature-space/static/js/main.8ab5d7a2.chunk.js",
-    "main.js.map": "/nature-space/static/js/main.8ab5d7a2.chunk.js.map",
+    "main.css": "/nature-space/static/css/main.78bc969e.chunk.css",
+    "main.js": "/nature-space/static/js/main.24395059.chunk.js",
+    "main.js.map": "/nature-space/static/js/main.24395059.chunk.js.map",
     "runtime-main.js": "/nature-space/static/js/runtime-main.6b51eb5b.js",
     "runtime-main.js.map": "/nature-space/static/js/runtime-main.6b51eb5b.js.map",
-    "static/js/2.7201f786.chunk.js": "/nature-space/static/js/2.7201f786.chunk.js",
-    "static/js/2.7201f786.chunk.js.map": "/nature-space/static/js/2.7201f786.chunk.js.map",
+    "static/js/2.f30c5d7a.chunk.js": "/nature-space/static/js/2.f30c5d7a.chunk.js",
+    "static/js/2.f30c5d7a.chunk.js.map": "/nature-space/static/js/2.f30c5d7a.chunk.js.map",
     "index.html": "/nature-space/index.html",
-    "precache-manifest.b2f5e23f31b588a36b6569e6a43c3b4a.js": "/nature-space/precache-manifest.b2f5e23f31b588a36b6569e6a43c3b4a.js",
+    "precache-manifest.9a8c605cb41a67888634a32937966ec7.js": "/nature-space/precache-manifest.9a8c605cb41a67888634a32937966ec7.js",
     "service-worker.js": "/nature-space/service-worker.js",
-    "static/css/main.fccaa63c.chunk.css.map": "/nature-space/static/css/main.fccaa63c.chunk.css.map",
-    "static/js/2.7201f786.chunk.js.LICENSE.txt": "/nature-space/static/js/2.7201f786.chunk.js.LICENSE.txt",
-    "static/media/Navbar.module.css": "/nature-space/static/media/Top.21727871.jpg",
-    "static/media/square-1.jpg": "/nature-space/static/media/square-1.de7d59a5.jpg",
-    "static/media/square-2.jpg": "/nature-space/static/media/square-2.8dc5757f.jpg",
-    "static/media/square-3.jpg": "/nature-space/static/media/square-3.23c63124.jpg"
+    "static/css/main.78bc969e.chunk.css.map": "/nature-space/static/css/main.78bc969e.chunk.css.map",
+    "static/js/2.f30c5d7a.chunk.js.LICENSE.txt": "/nature-space/static/js/2.f30c5d7a.chunk.js.LICENSE.txt",
+    "static/media/Navbar.module.css": "/nature-space/static/media/Top.7da65fc2.jpg",
+    "static/media/square-1.jpg": "/nature-space/static/media/square-1.8b8c9f1b.jpg",
+    "static/media/square-2.jpg": "/nature-space/static/media/square-2.b2bd1521.jpg",
+    "static/media/square-3.jpg": "/nature-space/static/media/square-3.8a888181.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6b51eb5b.js",
-    "static/js/2.7201f786.chunk.js",
-    "static/css/main.fccaa63c.chunk.css",
-    "static/js/main.8ab5d7a2.chunk.js"
+    "static/js/2.f30c5d7a.chunk.js",
+    "static/css/main.78bc969e.chunk.css",
+    "static/js/main.24395059.chunk.js"
   ]
 }
