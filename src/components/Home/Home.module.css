@@ -17,7 +17,11 @@ body {
   box-sizing: border-box;
 }
 .paperText {
-  background-color: #655c4fe6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
   color: aliceblue;
   height: 100%;
   max-height: 400px;
@@ -27,13 +31,23 @@ body {
   padding: 1em 1em 0.6em 1em;
   margin: 0;
 }
-.paperText p {
+.paperText blockquote {
   font-size: 1.5rem;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   margin: 0;
 }
 
-.MuiGrid-root, .MuiGrid-item, .MuiGrid-grid-xs-12, .MuiGrid-grid-sm-5, .MuiGrid-grid-md-4 {
+.paperText p {
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  align-self: flex-end;
+}
+
+.MuiGrid-root,
+.MuiGrid-item,
+.MuiGrid-grid-xs-12,
+.MuiGrid-grid-sm-5,
+.MuiGrid-grid-md-4 {
   height: 100%;
   max-height: 400px !important;
 }
@@ -44,3 +58,24 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+  .Layout {
+    width: 90%;
+  }
+
+  .paperText blockquote {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+  }
+
+  .paperText p {
+    padding-right: 0;
+    padding-bottom: 0.4rem;
+    align-self: center;
+  }
+
+  .paperText .endIcon {
+    display: none;
+  }
+}
