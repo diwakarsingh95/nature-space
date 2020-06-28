@@ -11,7 +11,7 @@ const Copyright = () => {
     <>
       {'Copyright © '}
       <Link color='inherit' href="/">
-        Nature Space Yoga Studio  
+        Nature Space Yoga Studio
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -22,17 +22,17 @@ const Copyright = () => {
 const SocialMedia = () => {
   return (
     <>
-     <Link href='https://www.instagram.com/nature_space_yoga_studio/' target='_blank'>
-       <InstagramIcon style={{ color: 'white'}} fontSize='large' />
+      <Link href='https://www.instagram.com/nature_space_yoga_studio/' target='_blank' rel='noopener'>
+        <InstagramIcon style={{ color: 'white' }} fontSize='large' />
       </Link>
-     {' '}
-     <Link href='https://www.facebook.com/nature.space.yoga.studio' target='_blank'>
-       <FacebookIcon style={{ color: 'white'}} fontSize='large' />
+      {' '}
+      <Link href='https://www.facebook.com/nature.space.yoga.studio' target='_blank' rel='noopener'>
+        <FacebookIcon style={{ color: 'white' }} fontSize='large' />
       </Link>
-     {' '}
-     <Link href='mailTo:someone@example.com'><MailOutlineIcon style={{ color: 'white'}} fontSize='large' /></Link>
-     {' '}
-     <Link href='tel:+918318516987'><CallIcon style={{ color: 'white'}} fontSize='large' /></Link>
+      {' '}
+      <Link href='mailTo:someone@example.com'><MailOutlineIcon style={{ color: 'white' }} fontSize='large' /></Link>
+      {' '}
+      <Link href='tel:+918318516987'><CallIcon style={{ color: 'white' }} fontSize='large' /></Link>
     </>
   )
 }
