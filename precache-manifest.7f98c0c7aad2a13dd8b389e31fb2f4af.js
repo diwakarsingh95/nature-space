@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d48995f9e0214a5a6126b6ac8aed3eb2",
+    "revision": "d826fdcd163cc4dc21fcd31d876d513f",
     "url": "/nature-space/index.html"
   },
   {
-    "revision": "58589875c4d7d175aeda",
+    "revision": "77adfb391204ed3e709b",
     "url": "/nature-space/static/css/main.0e176d2b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nature-space/static/js/2.f30c5d7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58589875c4d7d175aeda",
-    "url": "/nature-space/static/js/main.c85de06c.chunk.js"
+    "revision": "77adfb391204ed3e709b",
+    "url": "/nature-space/static/js/main.582413bc.chunk.js"
   },
   {
     "revision": "c1112cbd6bce54464120",
