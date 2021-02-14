@@ -1,9 +1,9 @@
 import React from 'react'
-import { Grid, Typography, Link, Divider } from '@material-ui/core'
+import { Grid, Link } from '@material-ui/core'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
-import CallIcon from '@material-ui/icons/Call';
+import CallIcon from '@material-ui/icons/Call'
 import styles from './Footer.module.css'
 
 const Copyright = () => {
