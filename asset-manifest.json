@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/nature-space/static/css/main.59ce2499.chunk.css",
-    "main.js": "/nature-space/static/js/main.5cbf2c59.chunk.js",
-    "main.js.map": "/nature-space/static/js/main.5cbf2c59.chunk.js.map",
-    "runtime-main.js": "/nature-space/static/js/runtime-main.f1561121.js",
-    "runtime-main.js.map": "/nature-space/static/js/runtime-main.f1561121.js.map",
-    "static/js/2.a382462e.chunk.js": "/nature-space/static/js/2.a382462e.chunk.js",
-    "static/js/2.a382462e.chunk.js.map": "/nature-space/static/js/2.a382462e.chunk.js.map",
-    "index.html": "/nature-space/index.html",
-    "static/css/main.59ce2499.chunk.css.map": "/nature-space/static/css/main.59ce2499.chunk.css.map",
-    "static/js/2.a382462e.chunk.js.LICENSE.txt": "/nature-space/static/js/2.a382462e.chunk.js.LICENSE.txt",
-    "static/media/Navbar.module.css": "/nature-space/static/media/Top.68568518.jpg",
-    "static/media/square-1.6e5137e5.jpg": "/nature-space/static/media/square-1.6e5137e5.jpg",
-    "static/media/square-2.58c7fb39.jpg": "/nature-space/static/media/square-2.58c7fb39.jpg",
-    "static/media/square-3.7119a3d2.jpg": "/nature-space/static/media/square-3.7119a3d2.jpg"
+    "main.css": "/static/css/main.b192fd5e.chunk.css",
+    "main.js": "/static/js/main.1990f96d.chunk.js",
+    "main.js.map": "/static/js/main.1990f96d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06825d1e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06825d1e.js.map",
+    "static/js/2.a382462e.chunk.js": "/static/js/2.a382462e.chunk.js",
+    "static/js/2.a382462e.chunk.js.map": "/static/js/2.a382462e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b192fd5e.chunk.css.map": "/static/css/main.b192fd5e.chunk.css.map",
+    "static/js/2.a382462e.chunk.js.LICENSE.txt": "/static/js/2.a382462e.chunk.js.LICENSE.txt",
+    "static/media/Navbar.module.css": "/static/media/Top.68568518.jpg",
+    "static/media/square-1.6e5137e5.jpg": "/static/media/square-1.6e5137e5.jpg",
+    "static/media/square-2.58c7fb39.jpg": "/static/media/square-2.58c7fb39.jpg",
+    "static/media/square-3.7119a3d2.jpg": "/static/media/square-3.7119a3d2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1561121.js",
+    "static/js/runtime-main.06825d1e.js",
     "static/js/2.a382462e.chunk.js",
-    "static/css/main.59ce2499.chunk.css",
-    "static/js/main.5cbf2c59.chunk.js"
+    "static/css/main.b192fd5e.chunk.css",
+    "static/js/main.1990f96d.chunk.js"
   ]
 }
