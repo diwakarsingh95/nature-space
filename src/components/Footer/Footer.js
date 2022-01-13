@@ -50,7 +50,9 @@ const Address = () => {
         <p>
           Yoga Health & Wellness Center
           <br />
-          1/13/164/B Station Road Civil Line, Ayodhya - 224001
+          1/13/164/B Station Road Civil Line,
+          <br />
+          Ayodhya - 224001
         </p>
       </address>
     </>
