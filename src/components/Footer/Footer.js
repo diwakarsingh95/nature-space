@@ -22,11 +22,19 @@ const Copyright = () => {
 const SocialMedia = () => {
   return (
     <>
-      <Link href='#' target='_blank' rel='noopener'>
+      <Link
+        href='https://www.instagram.com/yogahealthandwellnesscenter/'
+        target='_blank'
+        rel='noopener'
+      >
         <InstagramIcon style={{ color: 'white' }} fontSize='large' />
         <span className='sr-only'>Instagram</span>
       </Link>{' '}
-      <Link href='#' target='_blank' rel='noopener'>
+      <Link
+        href='https://www.facebook.com/yogahealthandwellnesscenter/'
+        target='_blank'
+        rel='noopener'
+      >
         <FacebookIcon style={{ color: 'white' }} fontSize='large' />
         <span className='sr-only'>Facebook</span>
       </Link>{' '}
