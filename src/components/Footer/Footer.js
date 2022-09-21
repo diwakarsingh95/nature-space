@@ -10,29 +10,42 @@ const Copyright = () => {
   return (
     <>
       {'Copyright © '}
-      <Link color='inherit' href="/">
-        Nature Space Yoga Studio
+      <Link color='inherit' href='/'>
+        Yoga Health & Wellness Center
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
     </>
-  );
+  )
 }
 
 const SocialMedia = () => {
   return (
     <>
-      <Link href='https://www.instagram.com/nature_space_yoga_studio/' target='_blank' rel='noopener'>
+      <Link
+        href='https://www.instagram.com/yogahealthandwellnesscenter/'
+        target='_blank'
+        rel='noopener'
+      >
         <InstagramIcon style={{ color: 'white' }} fontSize='large' />
-      </Link>
-      {' '}
-      <Link href='https://www.facebook.com/nature.space.yoga.studio' target='_blank' rel='noopener'>
+        <span className='sr-only'>Instagram</span>
+      </Link>{' '}
+      <Link
+        href='https://www.facebook.com/yogahealthandwellnesscenter/'
+        target='_blank'
+        rel='noopener'
+      >
         <FacebookIcon style={{ color: 'white' }} fontSize='large' />
+        <span className='sr-only'>Facebook</span>
+      </Link>{' '}
+      <Link href='mailTo:someone@example.com'>
+        <MailOutlineIcon style={{ color: 'white' }} fontSize='large' />
+        <span className='sr-only'>Email</span>
+      </Link>{' '}
+      <Link href='tel:+918318516987'>
+        <CallIcon style={{ color: 'white' }} fontSize='large' />
+        <span className='sr-only'>Call</span>
       </Link>
-      {' '}
-      <Link href='mailTo:someone@example.com'><MailOutlineIcon style={{ color: 'white' }} fontSize='large' /></Link>
-      {' '}
-      <Link href='tel:+918318516987'><CallIcon style={{ color: 'white' }} fontSize='large' /></Link>
     </>
   )
 }
@@ -43,11 +56,11 @@ const Address = () => {
       <h2>Contact Us</h2>
       <address>
         <p>
-          Nature Space Yoga Studio
+          Yoga Health & Wellness Center
           <br />
-          Somewhere on earth
+          1/13/164/B Station Road Civil Line,
           <br />
-          Pincode: 000000
+          Ayodhya - 224001
         </p>
       </address>
     </>
@@ -77,5 +90,5 @@ export default function Footer() {
         </Grid>
       </div>
     </div>
-  );
+  )
 }

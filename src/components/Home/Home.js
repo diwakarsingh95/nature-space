@@ -1,12 +1,12 @@
-import React from 'react';
-import { Grid, Paper, Box } from '@material-ui/core';
-import styles from './Home.module.css';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer/Footer';
-import Square1 from '../../assets/images/square-1.jpg';
-import Square2 from '../../assets/images/square-2.jpg';
-import Square3 from '../../assets/images/square-3.jpg';
-import AllInclusiveIcon from '@material-ui/icons/AllInclusive';
+import React from 'react'
+import { Grid, Paper, Box } from '@material-ui/core'
+import styles from './Home.module.css'
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+import Square1 from '../../assets/images/square-1.webp'
+import Square2 from '../../assets/images/square-2.webp'
+import Square3 from '../../assets/images/square-3.webp'
+import AllInclusiveIcon from '@material-ui/icons/AllInclusive'
 
 const Home = () => {
   return (
@@ -83,7 +83,7 @@ const Home = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

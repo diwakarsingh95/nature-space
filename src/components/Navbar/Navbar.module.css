@@ -1,7 +1,7 @@
 .mainTop {
   display: flex;
   flex-direction: row;
-  background: url('../../assets/images/Top.jpg');
+  background: url('../../assets/images/Top.webp');
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
